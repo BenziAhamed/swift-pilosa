@@ -37,22 +37,28 @@ client.ensure(frame)
 // batch a set of SetBit operations
 // and send to the server
 client.query(
-	index.batch(
+    index.batch(
         frame.setBit(1,1),
         frame.setBit(1,2),
-	    frame.setBit(2,3)
-	)
+        frame.setBit(2,3)
+    )
 )
 
 // run a PQL query
-let response = client.query(frame[2].union(frame[3]).count())
 // frame.bitmap(2) and frame[2] are equivalent
 
+let response = client.query(
+    frame[2].union(frame[3]).count()
+)
+
+// index.union( frame[2], frame[3] ) can also be called
+// all PQL operations are supported
+
 switch response {
-	case .success(let results):
-		// work with results
-	case .failure(let error): 
-		print(error)
+    case .success(let results):
+        // work with results
+    case .failure(let error): 
+        print(error)
 }
 
 ```
