@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/BenziAhamed/swift-pilosa.png?label=ready&title=Ready)](https://waffle.io/BenziAhamed/swift-pilosa?utm_source=badge)
 
 # Swift client for Pilosa
 
