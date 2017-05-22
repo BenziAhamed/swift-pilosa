@@ -3,6 +3,8 @@
 
 > **NOTE** This is a work in progress
 
+<img src="https://www.pilosa.com/img/speed_sloth.svg" style="float: right" align="right" height="301">
+
 Swift client for [Pilosa](http://www.pilosa.com), a high performance distributed bitmap index.
 
 ## Install
