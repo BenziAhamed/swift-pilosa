@@ -1,5 +1,5 @@
 
-#Swift client for Pilosa
+# Swift client for Pilosa
 
 > **NOTE** This is a work in progress
 
