@@ -21,7 +21,7 @@ For now, you need to manually download and link the framework in your project.
 ### Quick Overview
 Assuming Pilosa server is running at localhost:10101 (the default):
 
-```
+```swift
 import Pilosa
 
 // Create the default client
