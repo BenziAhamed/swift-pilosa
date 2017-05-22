@@ -1,7 +1,9 @@
 
 # Swift client for Pilosa
 
-> **NOTE** This is a work in progress
+> **NOTE** 
+> - This is an unofficial client library
+> - This is a work in progress
 
 <img src="https://www.pilosa.com/img/speed_sloth.svg" style="float: right" align="right" height="301">
 
